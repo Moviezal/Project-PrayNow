@@ -1,9 +1,13 @@
-# Project_Android_studio
+# Project Android Studio
 
 Nama      : Muhammad Hafizh Alfauzi
+
 NIM       : 312410501
+
 Kelas     : TI.24.A.5
+
 Matakuliah : Pemograman Mobile 1
+
 Dosen Pengampu : Donny Maulana, S.Kom., M.M.S.I.
 
 ## Tugas
