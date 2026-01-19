@@ -1,9 +1,3 @@
-Tentu, ini adalah versi lengkap dan profesional dari file **README.md** untuk GitHub kamu. Saya sudah memasukkan identitas aslimu, menyusun alur **Storyboard** secara visual menggunakan tabel agar menarik, dan menambahkan elemen grafis (emoji/ikon) supaya terlihat seperti pengembang profesional.
-
-Kamu cukup salin seluruh teks di bawah ini ke dalam file `README.md` di repositori GitHub kamu:
-
----
-
 # 🌙 PrayNow - Aplikasi Pengingat Shalat & Edukasi Islami
 
 **PrayNow** adalah solusi digital modern yang dirancang untuk membantu umat Muslim meningkatkan disiplin ibadah shalat lima waktu. Aplikasi ini menggabungkan fitur pengingat waktu shalat yang akurat dengan perpustakaan edukasi Islami untuk memperdalam pemahaman agama sehari-hari.
