@@ -1,82 +1,66 @@
-# 🌙 PrayNow - Aplikasi Pengingat Shalat & Edukasi Islami
+# Project_Android_studio
 
-**PrayNow** adalah solusi digital modern yang dirancang untuk membantu umat Muslim meningkatkan disiplin ibadah shalat lima waktu. Aplikasi ini menggabungkan fitur pengingat waktu shalat yang akurat dengan perpustakaan edukasi Islami untuk memperdalam pemahaman agama sehari-hari.
+Nama      : Muhammad Hafizh Alfauzi
+NIM       : 312410501
+Kelas     : TI.24.A.5
+Matakuliah : Pemograman Mobile 1
+Dosen Pengampu : Donny Maulana, S.Kom., M.M.S.I.
 
----
+## Tugas
 
-## 👤 Identitas Mahasiswa
+1. StoryBoard Project
+   
+<img src="img/Storyboard.png" width="450">
 
-* **Nama:** Muhammad Hafizh Alfauzi
-* **NIM:** 312410501
-* **Kelas:** TI.24.A5
-* **Mata Kuliah:** Pemrograman Mobile
-* **Dosen Pengampu:** Donny Maulana, S. Kom., M.M.Si.
+a. Pada tampilan awal, aplikasi **PrayNow** secara otomatis mendeteksi lokasi pengguna untuk menentukan bahasa yang digunakan (Indonesia atau Inggris). Pengguna dapat melihat bendera negara yang terdeteksi dan menekan tombol “Lanjutkan”.
 
----
+b. Pengguna kemudian diarahkan ke halaman splash screen dengan sapaan "Assalamualaikum Sahabat PrayNow!" serta pesan motivasi islami sebagai pengantar ke dashboard.
 
-## 📸 Storyboard & Alur Pengguna (User Journey)
+c. Pada halaman dashboard, aplikasi menampilkan jadwal shalat 5 waktu (Subuh, Dzuhur, Ashar, Maghrib, Isya) yang waktunya diperbarui secara real-time berdasarkan koordinat GPS pengguna.
 
-Berikut adalah alur visual bagaimana pengguna berinteraksi dengan **PrayNow**:
+d. Terakhir, pengguna dapat mengakses fitur edukasi "Buku Buku Islam" yang berisi panduan dasar agama seperti Rukun Islam, Rukun Iman, Ihsan, dan pilar amal ibadah.
 
-| Urutan | Layar (Screen) | Deskripsi Alur |
-| --- | --- | --- |
-| **1** | **Splash Screen** | Logo **PrayNow** muncul sebagai identitas awal saat aplikasi dimuat. |
-| **2** | **Onboarding 1** | Sambutan hangat *"Assalamualaikum Sahabat PrayNow!"* dengan ilustrasi Islami. |
-| **3** | **Onboarding 2** | Pesan motivasi untuk membangun disiplin ibadah. Pengguna menekan tombol "Login" untuk masuk ke sistem. |
-| **4** | **Dashboard (Home)** | Pengguna langsung melihat jadwal shalat (Subuh-Isya), jam real-time, dan lokasi saat ini. |
-| **5** | **Notifikasi Adzan** | Pengguna dapat mengatur alarm pengingat aktif/nonaktif melalui switch toggle di setiap waktu shalat. |
-| **6** | **Edukasi (Books)** | Menu "Buku Buku Islam" yang menyajikan pilihan materi Rukun Islam, Rukun Iman, Ihsan, dan Pilar Amal. |
-| **7** | **Detail Materi** | Tampilan teks edukasi yang bersih (seperti penjelasan Ihsan & Pilar Amal) untuk memudahkan belajar. |
+2. Wireframe
+   
+<img src="img/wireframe.png" width="450">
 
----
+4. Mockup
+ 
+<img src="img/mockup.png" width="450">
 
-## 🌟 Fitur Unggulan
+6. UI
+   
+<img src="img/UI.png" width="450">
 
-* **📍 Location-Based Prayer Times:** Jadwal shalat yang presisi berdasarkan titik koordinat pengguna.
-* **🔔 Smart Reminder:** Notifikasi adzan yang dapat dikustomisasi sesuai kebutuhan pengguna.
-* **📚 Islamic Library:** Konten edukasi dasar yang mencakup:
-* **Rukun Islam & Iman:** Ringkasan fundamental agama.
-* **Konsep Ihsan:** Edukasi mengenai cara beribadah yang khusyuk.
-* **Pilar Amal:** Pemahaman tujuan hidup sesuai QS. Adz-Dzariyat: 56.
+8. UX (User Experience) VIDEO PROTOTYPE Project
+ 
+<img src="img/UX.png" width="450">
 
+[Klik disini untuk melihat video ux di youtube](https://youtube.com/shorts/C9IGfmdQQF4?feature=share)
 
-* **🎨 Clean UI/UX:** Menggunakan tema *Deep Teal* (`#035561`) dan font Poppins untuk pengalaman pengguna yang nyaman.
+[Klik disini untuk melihat UXnya di figma](https://www.figma.com/proto/YdlfgTKnnzG1I7gDslEMVK/projrct-1?node-id=0-1&t=wMHiBIWF7zLuC4vd-1)
 
----
+9. Implementasi ke Android Studio
+  - Membuat Splashscreen logo PrayNow.
+  - Implementasi Fitur Konfigurasi Lokasi Otomatis untuk akurasi jadwal shalat.
+  - Membuat sistem Otomatisasi Bahasa (Bilingual: Indonesia & Inggris) berdasarkan deteksi lokasi.
+  - Membuat tampilan Dashboard Jadwal Shalat dengan jam digital real-time.
+  - Integrasi Notifikasi Suara Adzan otomatis.
+   
+11. Splash Screen & Location Detection (Otomatisasi Lokasi, Bendera, dan Bahasa Indo/English)
+   
+<img src="img/splashscreen.png" width="450">
 
-## 🛠️ Teknologi & Spesifikasi
+[Klik ini untuk lihat tampilan aplikasi](https://youtube.com/shorts/xVquwUg8O8A?feature=share)
 
-* **Language:** Dart (Flutter) / JavaScript (React Native)
-* **Design Tool:** Figma
-* **Typography:** Poppins (Regular, Medium, Semibold)
-* **Color Palette:** Deep Teal, White, & Vibrant Accents
+7. Fitur Notifikasi Suara Adzan
+   
+<img src="img/notif.png" width="450">
 
----
+Aplikasi memiliki fitur unggulan berupa **Notifikasi Suara Adzan Lengkap**. Saat memasuki waktu shalat, aplikasi akan otomatis memicu notifikasi suara adzan untuk mengingatkan pengguna meskipun aplikasi sedang berada di latar belakang.
 
-## 🚀 Cara Menjalankan Proyek
+## Link jadwal pada ClickUp
 
-1. Clone repositori ini:
-```bash
-git clone https://github.com/mhafizhalfauzi/PrayNow.git
+[Klik ini untuk cek jadwal di board ClickUp](https://sharing.clickup.com/90181803761/b/h/6-901812162905-2/25189aa114e44f4)
 
-```
-
-
-2. Jalankan perintah instalasi dependency:
-```bash
-flutter pub get
-
-```
-
-
-3. Hubungkan perangkat dan jalankan:
-```bash
-flutter run
-
-```
-
-
-
----
-
-*Dibuat dengan ❤️ untuk memenuhi tugas UAS Pemrograman Mobile.*
+[Klik ini untuk cek jadwal di gantt ClickUp](https://sharing.clickup.com/90181803761/g/h/6-901812162905-7/513ebf7eb4ef7aa)
